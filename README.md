@@ -1,6 +1,6 @@
 # Deploying an Azure AI Core Subscription using Terraform
 
-This is a repo for the Core Subscription to host shared services for Azure AI deployment.
+This is a repo for the Core Subscription to host shared services for an Azure AI deployment.
 
 List of Azure resources created with Terraform:
 
@@ -13,3 +13,5 @@ List of Azure resources created with Terraform:
 - Private DNS Zone for Azure Key Vault
 - Private DNS Zone for Azure Machine Learning
 - Private DNS Zone for Azure App Services (Function/WebApp)
+
+**Note:** You can deploy all these services on the same subscription as your Azure AI Services.
