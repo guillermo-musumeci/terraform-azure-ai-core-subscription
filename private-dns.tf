@@ -2,9 +2,9 @@
 ## DNS Private Zones - Resources ##
 ###################################
 
-## Private DNS Zone for Database ##
-resource "azurerm_private_dns_zone" "database" {
-  name                = "privatelink.database.core.windows.net"
+## Private DNS Zone for PostgreSQL ##
+resource "azurerm_private_dns_zone" "postgres" {
+  name                = "privatelink.postgres.database.azure.com"
   resource_group_name = azurerm_resource_group.network-rg.name
 }
 
