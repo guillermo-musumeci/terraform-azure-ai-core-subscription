@@ -1,6 +1,11 @@
 # Deploying an Azure AI Core Subscription using Terraform
+[![Terraform](https://img.shields.io/badge/terraform-v1.11+-blue.svg)](https://www.terraform.io/downloads.html)
+
+## Overview
 
 This is a repo for the Core Subscription to host shared services for an Azure AI deployment.
+
+## Code Creates
 
 List of Azure resources created with Terraform:
 
